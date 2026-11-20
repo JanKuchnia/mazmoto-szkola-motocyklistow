@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="pl"><head><meta name="robots" content="noindex">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MazMoto Szkoła Motocyklistów | Kraków</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { brand: { red: '#E4322B', dark: '#0E0E10', card: '#1B1B1F', border: '#2A2A30' } },
+          fontFamily: { sans: ['Inter', 'sans-serif'] }
+        }
+      }
+    };
+  </script>
+<style data-purpose="base-styling">
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background-color: #0E0E10; color: #E2E8F0; font-weight: 400; margin: 0; padding: 0; }
+    h1, h2, h3, h4, h5, h6 { font-weight: 500; }
+    a, button { text-decoration: none; }
+  </style>
+</head>
+<body class="bg-[#0E0E10] text-neutral-200 antialiased selection:bg-[#E4322B] selection:text-white">
+<header class="sticky top-0 z-50 bg-[#0E0E10]/95 backdrop-blur border-b border-neutral-800" data-purpose="site-header">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a class="flex flex-col" data-purpose="brand-logo" href="#">
+<span class="text-2xl font-semibold tracking-normal text-white">MazMoto</span>
+<span class="text-xs text-neutral-400 font-normal">Szkoła Motocyklistów</span>
+</a>
+<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-neutral-300" data-purpose="primary-navigation">
+<a class="hover:text-white" href="#uslugi">Usługi</a>
+<a class="hover:text-white" href="#etapy">Etapy szkolenia</a>
+<a class="hover:text-white" href="#dlaczego-my">Dlaczego my</a>
+<a class="hover:text-white" href="#galeria">Galeria</a>
+<a class="hover:text-white" href="#kontakt">Kontakt</a>
+</nav>
+<div class="flex items-center" data-purpose="header-cta">
+<a class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-[#E4322B] rounded" href="tel:+48572550530">Zadzwoń teraz</a>
+</div>
+</div>
+</header>
+
+<section class="relative min-h-[640px] flex items-center justify-center overflow-hidden" data-purpose="hero-section">
+<div class="absolute inset-0 z-0">
+<img alt="Motocyklista w zakręcie na drodze" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmdMKdb68Lq2Ho7YT_lpr7rMafEMCdQ7C6-X8oB0mIHw7wtpgJIGWFroz2M54w7Vk9hZ0TG8Z6tXh653-5VVxsg7yJQWw0LmaEx6Fvgu_IvnXZCPTKBKdG3yHJBEdaGSatAUou8XeLpY2jYfi6LqnP7pAv2XkGJoCFlPLQYjCNhsuHtmlsb8X1az2RHgxgVId2KNjXCprzA00lMpcNmWFDwxb8Pd53JFwLuIpzBC3GJPB-b9xelyx2fDIl9lRoLeXODyTBJCz8HmZV"/>
+<div class="absolute inset-0 bg-black/70"></div>
+</div>
+<div class="relative z-10 max-w-5xl mx-auto px-6 py-28 text-center flex flex-col items-center">
+<h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-white tracking-tight leading-tight max-w-4xl">Szkoła motocyklistów w Krakowie</h1>
+<p class="mt-6 text-lg sm:text-xl text-neutral-300 max-w-3xl leading-relaxed">Szkolimy przyszłych i obecnych motocyklistów na placu manewrowym oraz w realnym ruchu miejskim</p>
+<div class="mt-10 flex flex-col sm:flex-row items-center gap-4">
+<a class="w-full sm:w-auto px-7 py-3.5 text-base font-medium text-white bg-[#E4322B] rounded text-center" href="tel:+48572550530">Zadzwoń: +48 572 550 530</a>
+<a class="w-full sm:w-auto px-7 py-3.5 text-base font-medium text-white bg-neutral-900/80 border border-neutral-700 rounded text-center hover:bg-neutral-800" href="#uslugi">Zobacz ofertę</a>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#0E0E10] border-t border-neutral-900" data-purpose="services-section" id="uslugi">
+<div class="max-w-7xl mx-auto px-6">
+<div class="max-w-3xl mb-16">
+<h2 class="text-3xl sm:text-4xl font-semibold text-white">Usługi szkoleniowe</h2>
+<p class="mt-4 text-neutral-400 text-base">Praktyczne przygotowanie motocyklowe dopasowane do indywidualnych umiejętności kursanta.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-purpose="services-grid">
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Kurs prawa jazdy na motocykl</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Kompleksowe przygotowanie teoretyczne i praktyczne od podstaw, skupione na bezpiecznym opanowaniu maszyny oraz manewrów.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Jazdy doszkalające</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Dodatkowe godziny jazdy przeznaczone na dopracowanie konkretnych elementów techniki jazdy, manewrów lub tras egzaminacyjnych.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Nauka jazdy na placu manewrowym</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Intensywne ćwiczenia równowagi, precyzyjnego operowania gazem i sprzęgłem, slalomów oraz techniki awaryjnego hamowania.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Jazda w ruchu miejskim</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Opanowanie krakowskich skrzyżowań, rond, torowisk tramwajowych i sprawnego czytania zachowań innych uczestników ruchu.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Przygotowanie do egzaminu państwowego</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Trening według kryteriów ośrodka egzaminacyjnego, eliminacja typowych błędów i nauka opanowania stresu za kierownicą.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-7 flex flex-col justify-between">
+<div><h3 class="text-xl font-semibold text-white">Szkolenia dla początkujących i wracających na motocykl</h3>
+<p class="mt-3 text-neutral-300 text-sm leading-relaxed">Bezstresowy powrót na dwa koła po przerwie lub pierwsze kroki dla osób chcących zyskać pewność przed samodzielną jazdą.</p></div>
+<div class="mt-8 pt-5 border-t border-neutral-800/80"><div class="text-[#E4322B] font-medium text-base">Cena po kontakcie</div><div class="text-neutral-400 text-xs mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#111114] border-t border-neutral-800" data-purpose="process-section" id="etapy">
+<div class="max-w-7xl mx-auto px-6">
+<div class="max-w-3xl mb-16">
+<h2 class="text-3xl sm:text-4xl font-semibold text-white">Jak wygląda nauka krok po kroku</h2>
+<p class="mt-4 text-neutral-400 text-base">Przejrzysty i uporządkowany schemat szkolenia pozwalający na stabilny rozwój techniki jazdy.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8" data-purpose="step-list">
+<div class="flex items-start space-x-5">
+<div class="flex-shrink-0 w-10 h-10 rounded bg-neutral-800 border border-neutral-700 flex items-center justify-center text-white font-medium">1</div>
+<div><h3 class="text-lg font-semibold text-white">Konsultacja i formalności</h3>
+<p class="mt-1 text-sm text-neutral-300 leading-relaxed">Rozmowa telefoniczna, ustalenie planu zajęć oraz harmonogramu jazd dopasowanego do Twojej dyspozycyjności.</p>
+<span class="inline-block mt-2 text-xs text-neutral-400">Terminy ustalamy telefonicznie: +48 572 550 530</span></div>
+</div>
+<div class="flex items-start space-x-5">
+<div class="flex-shrink-0 w-10 h-10 rounded bg-neutral-800 border border-neutral-700 flex items-center justify-center text-white font-medium">2</div>
+<div><h3 class="text-lg font-semibold text-white">Plac manewrowy</h3>
+<p class="mt-1 text-sm text-neutral-300 leading-relaxed">Ćwiczenie równowagi, operowanie sprzęgłem i gazem, precyzyjne slalomy oraz techniczne hamowanie awaryjne na bezpiecznym placu.</p></div>
+</div>
+<div class="flex items-start space-x-5">
+<div class="flex-shrink-0 w-10 h-10 rounded bg-neutral-800 border border-neutral-700 flex items-center justify-center text-white font-medium">3</div>
+<div><h3 class="text-lg font-semibold text-white">Wyjazd na ulice Krakowa</h3>
+<p class="mt-1 text-sm text-neutral-300 leading-relaxed">Praktyczna jazda w ruchu ulicznym, bezpieczne pozycjonowanie na pasie ruchu, obserwacja martwych pól oraz radzenie sobie w gęstym ruchu miejskim.</p></div>
+</div>
+<div class="flex items-start space-x-5">
+<div class="flex-shrink-0 w-10 h-10 rounded bg-[#E4322B] text-white flex items-center justify-center font-medium">4</div>
+<div><h3 class="text-lg font-semibold text-white">Szlifowanie techniki i przygotowanie do egzaminu</h3>
+<p class="mt-1 text-sm text-neutral-300 leading-relaxed">Płynność, pewność za kierownicą i samodzielność na drodze, pozwalające na bezstresowe podejście do egzaminu i późniejszą bezpieczną jazdę.</p>
+<div class="mt-2 text-sm text-[#E4322B] font-medium">Cena po kontakcie</div></div>
+</div>
+</div>
+<div class="lg:col-span-5" data-purpose="step-image">
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F]">
+<img alt="Instruktor prowadzący szkolenie na placu manewrowym z pachołkami" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA5uin0a_CHGVVsOdfAHS5DOtiafnar-dShk4xv40-epoUtTx5d7mY0Nq2ycNfrIAKMGxOufQBK-HLne74F4YmeW3QL89bg2hPAIyEQg5LLP76BU0zBBaQDfJH8jYJXWDDgAoyrBrPTqM5B-7UndDwAo16Fl0d5WDD8t7NDtRdoSM15n4QT780AYhVmX4EZCel6IgUJaIGaLkyrEFBPXwte2ogpzr1fcEi9jrTepotXBz3gL_eJ_ctLqlS_77xdhhHtetFqZDifouh"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 text-xs text-neutral-400">Praktyczne szkolenie manewrowe na specjalnie przygotowanym placu</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#0E0E10] border-t border-neutral-800" data-purpose="why-us-section" id="dlaczego-my">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 order-2 lg:order-1" data-purpose="why-us-image">
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F]">
+<img alt="Dłonie motocyklisty na kierownicy motocykla i kokpit" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvTZpwdj3m4KHzjyycoeAVCtw4TLRYH2fhH413ZJIyEWhIHEZLZLKbS0AgSe9pgbI8IxXnegr1V0ZjDQN7neNIS4KfmNwDefhiG45tFwUU38FBwaKNfFt1alFw5cylIKer7LS8wEqnrwuojzUl4BZp6nFeyqjPo0x506ekM-M-zfxfy9gl7igcFPDwGgwy9kMVHYxkAsdmp0q9aCFJoAoyl8hCXZMjCxfcuQ4Gqn8h7ZwTDqOA2mqKwfS8Ep-Sp2X2Vv49lF6KBU0r"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 text-xs text-neutral-400">Nacisk na precyzyjną kontrolę manetki gazu i techniki operowania hamulcami</div>
+</div>
+</div>
+<div class="lg:col-span-7 order-1 lg:order-2 space-y-6" data-purpose="why-us-content">
+<div>
+<h2 class="text-3xl sm:text-4xl font-semibold text-white leading-tight">Dlaczego warto szkolić się w MazMoto</h2>
+<p class="mt-4 text-neutral-300 text-base leading-relaxed">Skupiamy się na realnych umiejętnościach motocyklowych, które gwarantują bezpieczeństwo i opanowanie na drodze w każdych warunkach pogodowych oraz drogowych.</p>
+</div>
+<div class="space-y-4 pt-2">
+<div class="p-4 rounded bg-[#1B1B1F] border border-neutral-800/80"><h3 class="text-base font-semibold text-white">Indywidualne podejście do każdego kursanta</h3><p class="mt-1 text-sm text-neutral-400 leading-relaxed">Dostosowujemy tempo nauki oraz zestaw ćwiczeń do Twoich predyspozycji i dotychczasowego doświadczenia na drodze.</p></div>
+<div class="p-4 rounded bg-[#1B1B1F] border border-neutral-800/80"><h3 class="text-base font-semibold text-white">Nacisk na bezpieczeństwo i nawyki obronnej jazdy</h3><p class="mt-1 text-sm text-neutral-400 leading-relaxed">Uczymy przewidywania zagrożeń, prawidłowego rozglądania się i zachowania bezpiecznego marginesu przestrzeni wokół motocykla.</p></div>
+<div class="p-4 rounded bg-[#1B1B1F] border border-neutral-800/80"><h3 class="text-base font-semibold text-white">Cierpliwość instruktorów</h3><p class="mt-1 text-sm text-neutral-400 leading-relaxed">Stawiamy na rzeczowe, spokojne wskazówki bez niepotrzebnego pośpiechu i stresu, budując pewność za sterami motocykla.</p></div>
+<div class="p-4 rounded bg-[#1B1B1F] border border-neutral-800/80"><h3 class="text-base font-semibold text-white">Opanowanie motocykla w każdych warunkach</h3><p class="mt-1 text-sm text-neutral-400 leading-relaxed">Przekazujemy wiedzę dotyczącą zachowania motocykla na zróżnicowanej nawierzchni, przy nagłych zmianach przyczepności i w zakrętach.</p></div>
+</div>
+<div class="pt-2"><span class="text-sm text-neutral-400 block">Terminy ustalamy telefonicznie: +48 572 550 530</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#111114] border-t border-neutral-800" data-purpose="gallery-section" id="galeria">
+<div class="max-w-7xl mx-auto px-6">
+<div class="max-w-3xl mb-16">
+<h2 class="text-3xl sm:text-4xl font-semibold text-white">Szkolenia w praktyce</h2>
+<p class="mt-4 text-neutral-400 text-base">Przegląd ćwiczeń realizowanych podczas zajęć praktycznych na placu i trasach miejskich.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-purpose="gallery-grid">
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F] flex flex-col">
+<img alt="Motocyklista pokonujący zakręt na asfalcie" class="w-full h-72 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmdMKdb68Lq2Ho7YT_lpr7rMafEMCdQ7C6-X8oB0mIHw7wtpgJIGWFroz2M54w7Vk9hZ0TG8Z6tXh653-5VVxsg7yJQWw0LmaEx6Fvgu_IvnXZCPTKBKdG3yHJBEdaGSatAUou8XeLpY2jYfi6LqnP7pAv2XkGJoCFlPLQYjCNhsuHtmlsb8X1az2RHgxgVId2KNjXCprzA00lMpcNmWFDwxb8Pd53JFwLuIpzBC3GJPB-b9xelyx2fDIl9lRoLeXODyTBJCz8HmZV"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 flex justify-between items-center text-sm"><span class="text-white font-medium">Jazda w zakrętach</span><span class="text-xs text-neutral-400">Prawidłowa pozycja ciała i wzrok</span></div>
+</div>
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F] flex flex-col">
+<img alt="Kokpit motocykla i kontrola osprzętu kierownicy" class="w-full h-72 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvTZpwdj3m4KHzjyycoeAVCtw4TLRYH2fhH413ZJIyEWhIHEZLZLKbS0AgSe9pgbI8IxXnegr1V0ZjDQN7neNIS4KfmNwDefhiG45tFwUU38FBwaKNfFt1alFw5cylIKer7LS8wEqnrwuojzUl4BZp6nFeyqjPo0x506ekM-M-zfxfy9gl7igcFPDwGgwy9kMVHYxkAsdmp0q9aCFJoAoyl8hCXZMjCxfcuQ4Gqn8h7ZwTDqOA2mqKwfS8Ep-Sp2X2Vv49lF6KBU0r"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 flex justify-between items-center text-sm"><span class="text-white font-medium">Kontrola manetki i hamulca</span><span class="text-xs text-neutral-400">Precyzyjne dozowanie siły</span></div>
+</div>
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F] flex flex-col">
+<img alt="Dwóch motocyklistów na jezdni w mieście o zachodzie słońca" class="w-full h-72 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF24tRjKJcvyuIJBTAiAe6Xzfr5k-gCMTLT9XIGkO3GZgrs9ojkrOL48ygvT7brZUAX4pwCL2cubwJyKqummmVyCcsEDJFyxoPYnxkjeXQ3dKkEJDEdxINhERK7xcUEESpCIwZmRSr9iLJlzOnwQXuogj05jHG25XxbavhBXLcIXtIA62xfFiK6uPz8E1NM8yPJhvziHVhcpZkIxTvW_xzOjoFyE3Sgn0XPv9oTp66JZ0XwakKC_out245llFRELYB2kaNXtPuPeZm"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 flex justify-between items-center text-sm"><span class="text-white font-medium">Jazda w krakowskim ruchu miejskim</span><span class="text-xs text-neutral-400">Pewność i widoczność na drodze</span></div>
+</div>
+<div class="rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F] flex flex-col">
+<img alt="Zajęcia na placu manewrowym z instruktorem" class="w-full h-72 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA5uin0a_CHGVVsOdfAHS5DOtiafnar-dShk4xv40-epoUtTx5d7mY0Nq2ycNfrIAKMGxOufQBK-HLne74F4YmeW3QL89bg2hPAIyEQg5LLP76BU0zBBaQDfJH8jYJXWDDgAoyrBrPTqM5B-7UndDwAo16Fl0d5WDD8t7NDtRdoSM15n4QT780AYhVmX4EZCel6IgUJaIGaLkyrEFBPXwte2ogpzr1fcEi9jrTepotXBz3gL_eJ_ctLqlS_77xdhhHtetFqZDifouh"/>
+<div class="p-4 bg-[#1B1B1F] border-t border-neutral-800 flex justify-between items-center text-sm"><span class="text-white font-medium">Ćwiczenia na placu manewrowym</span><span class="text-xs text-neutral-400">Slalom i manewry precyzyjne</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#0E0E10] border-t border-neutral-800" data-purpose="location-section">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-6">
+<h2 class="text-3xl sm:text-4xl font-semibold text-white">Lokalizacja i dojazd</h2>
+<p class="text-neutral-300 text-base leading-relaxed">Zajęcia oraz spotkania organizacyjne prowadzimy w dogodnej lokalizacji w Krakowie.</p>
+<div class="p-6 rounded bg-[#1B1B1F] border border-neutral-800 space-y-4">
+<div><div class="text-xs text-neutral-400">Adres szkoły</div><div class="text-xl font-medium text-white mt-1">Galicyjska 9, Kraków</div></div>
+<div class="pt-3 border-t border-neutral-800"><div class="text-xs text-neutral-400">Harmonogram zajęć</div><div class="text-sm font-medium text-white mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+<div class="pt-3 border-t border-neutral-800"><div class="text-xs text-neutral-400">Cennik kursów i lekcji</div><div class="text-sm font-medium text-[#E4322B] mt-1">Cena po kontakcie</div></div>
+</div>
+<div><a class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#E4322B] rounded" href="https://www.google.com/maps/search/?api=1&amp;query=MazMoto%20Szko%C5%82a%20Motocyklist%C3%B3w%20Galicyjska%209%20Krak%C3%B3w" rel="noopener noreferrer" target="_blank">Otwórz w Google Maps</a></div>
+</div>
+<div class="lg:col-span-7">
+<div class="relative w-full h-96 rounded overflow-hidden border border-neutral-800 bg-[#1B1B1F] flex items-center justify-center p-8 text-center" data-purpose="map-visual">
+<div class="absolute inset-0 bg-[#16161A] flex flex-col justify-between p-6 opacity-60">
+<div class="border-b border-neutral-800 pb-2 flex justify-between text-xs text-neutral-500"><span>Kraków</span><span>Galicyjska 9</span></div>
+<div class="space-y-3"><div class="w-full h-1 bg-neutral-800"></div><div class="w-3/4 h-1 bg-neutral-800"></div><div class="w-5/6 h-1 bg-neutral-800"></div></div>
+<div class="text-xs text-neutral-500">Dojazd ulicą Galicyjską</div>
+</div>
+<div class="relative z-10 bg-[#0E0E10] border border-neutral-700 p-6 rounded max-w-sm w-full shadow-2xl text-left">
+<div class="flex items-center space-x-3 mb-3"><span class="w-3 h-3 rounded-full bg-[#E4322B]"></span><span class="text-sm font-semibold text-white">MazMoto Szkoła Motocyklistów</span></div>
+<div class="text-sm text-neutral-300">Galicyjska 9, Kraków</div>
+<div class="mt-4 pt-3 border-t border-neutral-800 text-xs text-neutral-400">Terminy ustalamy telefonicznie: +48 572 550 530</div>
+<div class="mt-4"><a class="text-xs font-medium text-[#E4322B] hover:underline" href="https://www.google.com/maps/search/?api=1&amp;query=MazMoto%20Szko%C5%82a%20Motocyklist%C3%B3w%20Galicyjska%209%20Krak%C3%B3w" rel="noopener noreferrer" target="_blank">Nawiguj do celu</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-[#111114] border-t border-neutral-800" data-purpose="contact-section" id="kontakt">
+<div class="max-w-7xl mx-auto px-6">
+<div class="max-w-3xl mb-16">
+<h2 class="text-3xl sm:text-4xl font-semibold text-white">Kontakt z instruktorem</h2>
+<p class="mt-4 text-neutral-400 text-base">Skontaktuj się telefonicznie lub zostaw wiadomość, aby ustalić dogodny termin zajęć.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-7 bg-[#1B1B1F] border border-neutral-800 rounded p-8" data-purpose="contact-form-container">
+<form class="space-y-6" data-purpose="inquiry-form" onsubmit="event.preventDefault();">
+<div><label class="block text-sm font-medium text-neutral-300 mb-2" for="contact-name">Imię i nazwisko</label>
+<input class="w-full bg-[#0E0E10] border border-neutral-700 rounded px-4 py-3 text-white placeholder-neutral-500 focus:outline-none focus:border-[#E4322B]" id="contact-name" name="name" placeholder="Twoje imię i nazwisko" required="" type="text"/></div>
+<div><label class="block text-sm font-medium text-neutral-300 mb-2" for="contact-phone">Numer telefonu</label>
+<input class="w-full bg-[#0E0E10] border border-neutral-700 rounded px-4 py-3 text-white placeholder-neutral-500 focus:outline-none focus:border-[#E4322B]" id="contact-phone" name="phone" placeholder="+48 000 000 000" required="" type="tel"/></div>
+<div><label class="block text-sm font-medium text-neutral-300 mb-2" for="contact-message">Wiadomość</label>
+<textarea class="w-full bg-[#0E0E10] border border-neutral-700 rounded px-4 py-3 text-white placeholder-neutral-500 focus:outline-none focus:border-[#E4322B]" id="contact-message" name="message" placeholder="Wpisz treść pytania lub interesujący Cię rodzaj szkolenia" required="" rows="4"></textarea></div>
+<div><button class="w-full sm:w-auto px-8 py-3.5 text-sm font-medium text-white bg-[#E4322B] rounded text-center cursor-pointer" type="submit">Wyślij zgłoszenie</button></div>
+</form>
+</div>
+<div class="lg:col-span-5 space-y-6" data-purpose="contact-details-panel">
+<div class="bg-[#1B1B1F] border border-neutral-800 rounded p-8 space-y-6">
+<div><div class="text-xs text-neutral-400">Telefon bezpośredni</div><a class="text-2xl font-semibold text-white mt-1 block hover:text-[#E4322B]" href="tel:+48572550530">+48 572 550 530</a></div>
+<div class="pt-4 border-t border-neutral-800"><div class="text-xs text-neutral-400">Adres szkoły</div><div class="text-base text-neutral-200 mt-1 font-medium">Galicyjska 9, Kraków</div></div>
+<div class="pt-4 border-t border-neutral-800"><div class="text-xs text-neutral-400">Dostępność i harmonogram</div><div class="text-sm text-neutral-200 mt-1">Terminy ustalamy telefonicznie: +48 572 550 530</div></div>
+<div class="pt-4 border-t border-neutral-800"><div class="text-xs text-neutral-400">Koszt szkolenia</div><div class="text-sm font-semibold text-[#E4322B] mt-1">Cena po kontakcie</div></div>
+<div class="pt-6"><a class="w-full inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-white bg-neutral-800 border border-neutral-700 rounded hover:bg-neutral-700" href="tel:+48572550530">Połącz telefonicznie</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-[#0E0E10] border-t border-neutral-800 py-16" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-neutral-800/80">
+<div class="space-y-3">
+<div class="text-xl font-semibold text-white">MazMoto Szkoła Motocyklistów</div>
+<p class="text-sm text-neutral-400">Galicyjska 9, Kraków</p>
+<a class="text-sm font-medium text-white hover:text-[#E4322B] block" href="tel:+48572550530">Telefon: +48 572 550 530</a>
+</div>
+<div class="space-y-3">
+<div class="text-sm font-semibold text-white">Harmonogram i rezerwacje</div>
+<p class="text-sm text-neutral-400">Terminy ustalamy telefonicznie: +48 572 550 530</p>
+<p class="text-xs text-[#E4322B] font-medium">Cena po kontakcie</p>
+</div>
+<div class="space-y-3">
+<div class="text-sm font-semibold text-white">Nawigacja</div>
+<div class="flex flex-col space-y-2 text-sm text-neutral-400">
+<a class="hover:text-white" href="#uslugi">Usługi</a>
+<a class="hover:text-white" href="#etapy">Etapy szkolenia</a>
+<a class="hover:text-white" href="#dlaczego-my">Dlaczego my</a>
+<a class="hover:text-white" href="#galeria">Galeria</a>
+<a class="hover:text-white" href="#kontakt">Kontakt</a>
+</div>
+</div>
+</div>
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500">
+<div>© 2026 MazMoto Szkoła Motocyklistów. Wszelkie prawa zastrzeżone</div>
+<div class="mt-4 sm:mt-0">Kraków, Galicyjska 9</div>
+</div>
+</div>
+</footer>
+</body></html>
